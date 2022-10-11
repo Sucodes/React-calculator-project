@@ -1,6 +1,6 @@
 # Mini Calculator Project
 
-![Calculator project banner](./images/Mini_Calculator.png)
+![Calculator project banner](./assets/Mini_Calculator.png)
 ---
 
 [Click here to view live site](https://6344f7b1304cc658d6371d53--dapper-cassata-a1ec00.netlify.app/)
