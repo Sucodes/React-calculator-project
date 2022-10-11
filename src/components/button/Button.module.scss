@@ -1,0 +1,28 @@
+@import '../../assets/variable.scss';
+
+.btn {
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 3%;
+    padding: 2px 0px;
+    margin-top: 20px;
+    background-color: $lightGray;
+
+    tbody > tr {
+        @include flexCenter(row);
+        justify-content: space-around;
+
+        td {
+            background-color: $color;
+            cursor: pointer;
+            width: 10px;
+            margin: 3px;
+            padding: 15px;
+            border: none;
+            border-radius: 50%;
+            @include flexCenter(row);
+            @include hover;
+            font-weight: 600;
+        }
+    }
+}

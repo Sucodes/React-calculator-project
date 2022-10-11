@@ -1,0 +1,28 @@
+/******************************* colors *******************/
+
+$backgroundColor: #6c757d;
+$lightGray: #ced4da;
+$color: #e9ecef;
+$highlight: #ffc8dd;
+
+/******************************** mixins *******************/
+
+@mixin flexCenter($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexEnd {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+@mixin hover {
+    &:hover {
+       background-color: $highlight;
+       transition: all 0.3s ease-out;
+    }
+}

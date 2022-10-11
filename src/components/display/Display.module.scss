@@ -1,0 +1,37 @@
+@import '../../assets/variable.scss';
+
+.box {
+    width: 188px;
+    border: none;
+    padding: 1.3rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 3px $lightGray;
+    background-color: $backgroundColor;
+
+    .box__input {
+        width: 100%;
+        height: 100px;
+        border: none;
+        border-radius: 3%;
+        background-color: $color;
+        color: #000;
+        font-size: 1rem;
+        text-align: right;
+        @include flexCenter(column);
+        flex-wrap: wrap;
+        overflow-x: scroll;
+        
+        .display {
+            padding: 0px 5px;
+            @include flexEnd;
+            width: 100%;
+        }
+    
+        .result {
+            padding: 0px 5px;
+            @include flexEnd;
+            align-items: flex-start;
+            width: 100%;
+        }
+    }
+}
