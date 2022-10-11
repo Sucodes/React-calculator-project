@@ -1,6 +1,6 @@
 # Mini Calculator Project
 
-![Calculator project banner](./images/Mini_Calculator.png)
+![Calculator project banner](./src/assets/images/Mini_Calculator.png)
 ---
 
 ## Basic Overview
